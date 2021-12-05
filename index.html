@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <h1 class="text-center  display-4 mt-3">Welcome At ToDo App</h1>
+    <div class="container col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="form-groub">
+                 <label for="">Add Task</label>
+                 <input type="text" class="form-control" id="inputtask">
+                 <div id="" class="alert alert-danger mt-1 invalid">
+                    Please Enter Valid Data
+                </div>
+                </div>
+                <button class="btn btn-info mt-1 my-2 btn-block" id="addbtn">Add Task</button>
+            </div>
+        </div>
+    </div>
+    <div class="container col-md-8 mt-5">
+        <div class="card">
+            <div class="card-body">
+                <div id="allTasks">
+
+                </div>
+                <div id="notasks" class="alert alert-danger">
+                    No Task Add Yet
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

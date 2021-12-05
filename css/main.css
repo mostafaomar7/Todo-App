@@ -1,0 +1,16 @@
+body {
+    background-color:#111;
+}
+h1{
+    color: #C08771;
+    font-family: 'Allison', cursive;
+}
+.card {
+    background-color: #1E4C66;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+.invalid{
+    display: none;
+}
