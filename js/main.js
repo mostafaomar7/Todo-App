@@ -17,8 +17,13 @@ add.onclick=function(){
     if(inputt.value != ""){
         alertt.style.display='none'
         alertblus.innerHTML+=`<div class="divjs" ><div style="background-color:#FBEAFF; color:black; margin-top:10px; width:100%; height: 25px;
-    text-align: center; padding: 8px 0px; border-radius: 5px;">${inputt.value} </div></div>`
+    padding: 8px 0px; border-radius: 5px;">${inputt.value} <button class="delete">Delete</button></div></div>`
     }
 
 }
 
+document.addEventListener('click', function(e){
+    if (e.target.classList.contains('delete')){
+        e.target.parentElement.remove();
+    }
+})
